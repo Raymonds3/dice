@@ -47,7 +47,6 @@ public class Die {
     }
 
     public void roll() {
-//        double probability = setProbabilities();
         value = ((int) (Math.random() * sides)) + 1;
     }
 
