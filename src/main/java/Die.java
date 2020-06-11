@@ -39,6 +39,8 @@ public class Die {
             double number = i/probabilitie;
             if (number<0){
                 numbers[i] = number;
+            }else{
+                continue;
             }
         }
         for (double num : numbers) {
